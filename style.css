@@ -1,0 +1,242 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* top-intro */
+.top-banner{
+    display: flex;
+}
+.half-width1{
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+
+.box{
+    box-shadow: 5px 5px 40px white;
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orangered);
+    border-image-slice: 1;
+}
+.box h2{
+    
+    font-size: 60px;
+    font-weight: bolder;
+    padding-left: 2%;
+    font-family: cursive;
+    
+}
+.color{
+    color: orange;
+}
+.half-width1 p{
+    padding: 20px 0;
+}
+.half-width1 a{
+    text-decoration: none;
+    background-image: linear-gradient(#fa5757, #FF5959);
+    padding: 15px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.half-width1 img{
+    width: 80%;
+}
+/* top intro end  */
+
+/* 2nd section start  */
+.second-banner{
+    margin-top: 4%;
+}
+.second-banner h1{
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.flexible-container2{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.half-width2{
+    width: 25%;
+    margin-left: 3%;
+    box-shadow: 10px 10px 40px white;
+    border-radius: 20px;
+    padding: 40px;
+}
+#mission{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#vission{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#goals{
+    background-color: rgba(255, 244, 214, 1);
+}
+.half-width2 img{
+    width: 141px;
+    height: 141px;
+
+}
+/* 2nd section end */
+
+/* 3rd section start  */
+.third-banner{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+    margin-left: 3%;
+}
+.half-width3{
+    width: 40%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.half-width3 img {
+    width: 100%;
+    margin-left: 3%;
+}
+.half-width3 h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.half-width3 p{
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+.half-width3 a{
+    text-decoration: none;
+    background-image: linear-gradient(#fa5757, #FF5959);
+        padding: 15px 25px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        border-radius: 10px;
+}
+
+/* 3rd section end */
+
+/* 4th section start  */
+.fourth-banner {
+    display: flex;
+    margin-top: 10%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size: 11%;
+    margin-right: 4%;
+    
+    
+}
+
+.half-width4 {
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.half-width4 img {
+    width: 90%;
+    margin-left: 13%;
+}
+
+.half-width4 h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.half-width4 p {
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+.half-width4 a {
+    text-decoration: none;
+    background-image: linear-gradient(#fa5757, #FF5959);
+    padding: 15px 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+/* 4th section end */
+/* 5th section start  */
+.fifth-banner{
+    margin-top: 10%;
+}
+.fifth-banner h1{
+    font-size: 55px;
+    text-align: center;
+    font-weight: bolder;
+}
+.flexible-container5{
+    display: flex;
+    margin: 5%;
+}
+.half-width5{
+    width: 40%;
+    margin-left: 5%;
+}
+
+
+.half-width5 img{
+    width: 60%;
+    margin-left: 20%;
+}
+#width5 {
+    padding-top: 5%;
+}
+.half-width5 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-family: cursive;
+   
+}
+.half-width5 p{
+    padding-bottom: 2%;
+}
+.half-width5 a{
+    text-decoration: none;
+        background-image: linear-gradient(#fa5757, #FF5959);
+        padding: 15px 25px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        border-radius: 10px;
+}
+/* 5th section end */
+
+
+/* footer part start */
+footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    border: 2px solid black;
+}
+footer h3{
+    color: white;
+    font-family: 'Lobster';
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 40px;
+}
+footer span{
+    color: #FF5959;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+/* footer part end */
+
